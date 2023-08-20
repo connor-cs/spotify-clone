@@ -12,6 +12,7 @@ const CallbackPage = () => {
     }
   }, []);
 
+  //
   return (
     <div>
       <h2>Callback Page</h2>
