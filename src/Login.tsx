@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-
+//
 //the docs say to set response_type to code, instead of token, but code doesn't give me expected response
 //the response is supposed to include an authcode (that can be exchanged for access token) and a value called state inside the url, but does not include state value when i set respose type to code
 // const AUTH_URL = 'https://accounts.spotify.com/authorize?client_id=' + clientID + '&response_type=token&redirect_uri=' + redirectURI + '&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state'
